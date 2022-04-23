@@ -1,6 +1,6 @@
 Hello
 
-[!image](image1)
-[!image](secondImage)
+![image](image1)
+![image](secondImage)
 
 world

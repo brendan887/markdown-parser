@@ -19,8 +19,8 @@ public class MarkdownParse {
             }
             
             currentIndex++;
-            
-            if (openBracket + 1 >= markdown.length() || markdown.charAt(openBracket + 1) == '!') {
+
+            if (markdown.charAt(openBracket - 1) == '!') {
                 continue;
             }
 
