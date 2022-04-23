@@ -20,10 +20,6 @@ public class MarkdownParse {
             
             currentIndex++;
 
-            if (markdown.charAt(openBracket - 1) == '!') {
-                continue;
-            }
-
             int closeBracket = markdown.indexOf("]", openBracket);
             if (closeBracket < 0) {
                 break;
