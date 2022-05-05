@@ -34,5 +34,5 @@ public class MarkdownParseTest {
         List generatedList = MarkdownParse.getLinks(Files.readString(Path.of(fileName)));
         List testList = List.of("https://youtube.com", "link2");
         assertEquals(generatedList, testList);
-    }
+    }   
 }
